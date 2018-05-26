@@ -1,0 +1,147 @@
+body{
+    background: #74ebd5;
+    /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.prompt{
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    -webkit-box-shadow: -11px 29px 31px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -11px 29px 31px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: -11px 29px 31px 6px rgba(0, 0, 0, 0.75);
+    font-size: 40px;
+    width:50%;
+    padding: 5%;
+    margin-top:10%;
+    margin-left: 15%;
+    display: inline-flex;
+}
+.signs{
+    float: right;
+}
+button{
+    outline: none;
+    border:none;
+    background-color: inherit;
+    font-size:20px;
+}
+button:hover{
+    background-color:rgb(92, 92, 211);
+    font-size: 40px;
+    transition: 0.3s all linear;
+}
+@keyframes game{
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+table {
+    animation: game 1s linear 1ms 1 forwards;
+    margin: auto;
+       }
+
+td {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size:50px;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+td:hover{
+    border: orange solid 1px;
+    transition: 0.1s 0.1s linear all;
+}
+.a-11 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.a-12 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+}
+
+.a-13 {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+}
+
+.a-21 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+}
+
+.a-22 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+}
+
+.a-23 {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+}
+
+.a-31 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+}
+
+.a-32 {
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+}
+
+.a-33 {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+}
+.hidden{
+    display: none;
+}
+.reset{
+    float: left;
+    text-transform: uppercase;
+}
+
+.replay{
+ transform: translateX(5);
+}
+    
