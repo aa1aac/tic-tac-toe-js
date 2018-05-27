@@ -7,7 +7,7 @@ body{
 
     background: linear-gradient(to right, #ACB6E5, #74ebd5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   width:100%;
 }
 .prompt{
     text-align: center;
@@ -55,6 +55,7 @@ button:hover{
 table {
     animation: game 1s linear 1ms 1 forwards;
     margin: auto;
+    position: relative;
        }
 
 td {
@@ -142,6 +143,17 @@ td:hover{
 }
 
 .replay{
- transform: translateX(5);
+  
+    margin-bottom: 10%;
 }
-    
+.gamebody{
+  text-align: center;
+     
+}
+.endgame{
+    text-align: center;
+}
+.text{
+    font-size: 50px;
+}
+
